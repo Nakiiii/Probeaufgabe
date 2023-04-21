@@ -1,0 +1,8 @@
+<a [routerLink]="['/detail', device.id]">
+<div class="device" >
+    <h3>{{ device.deviceName }}</h3>
+    <p style="color: #4b4a4a;">{{device.deviceTypeId}}</p>
+    <p>Failsafe: {{device.failsafe}}</p>
+    <a (click)="deleteDevice(device.id)"><fa-icon [icon]="faTrash" style="margin-left: 5px;"></fa-icon></a>
+</div>
+</a>

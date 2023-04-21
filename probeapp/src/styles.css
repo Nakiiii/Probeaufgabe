@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+.btn {
+    display: inline-block;
+    width: 250px;
+    padding: 5px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    margin: 10px
+  }
+  
+  .btn:hover {background-color: #424242}
+  
+  .btn:active {
+    background-color: #424242;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.button-right {
+  position: absolute;
+  right: 0;
+}
+
+#left {
+  display: table-cell;
+}
+
+#right {
+  display: table-cell;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: 10px;
+  overflow: auto;
+  max-width:fit-content;
+  min-width: 80%;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.container app-device {
+  width: 300px;
+  margin: 2px;
+  display: inline-block
+}

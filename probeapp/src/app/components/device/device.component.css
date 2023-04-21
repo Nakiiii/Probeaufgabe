@@ -1,0 +1,17 @@
+.device {
+    background: #f4f4f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+  
+  .device.reminder {
+    border-left:  solid green;
+  }
+  
+  .device h3 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
